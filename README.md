@@ -12,9 +12,12 @@ Uma aplicação de lista de tarefas criada como parte de um curso de React da Ro
 
 - React
 - TypeScript
+- Vite
+- Tailwind CSS
 - Context API
 - UUID
 - Phosphor
+
 
 ## Instalação para rodar o projeto localmente: 
 ```bash
