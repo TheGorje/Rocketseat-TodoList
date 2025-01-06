@@ -1,5 +1,6 @@
 # RocketSeat - TodoList
-Uma aplicação de lista de tarefas criada como parte de um curso de React da RocketSeat.
+- Uma aplicação de lista de tarefas criada como parte de um curso de React da RocketSeat.
+- Disponível em: [Rocketseat-TodoList.io](https://thegorje.github.io/Rocketseat-TodoList/)
 
 ## Funcionalidades
 
