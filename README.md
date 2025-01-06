@@ -49,7 +49,7 @@ npm run dev
 
 
 
-### Components
+### Estilos e Componentes do Designer
 <img src=".github/Estilos.png" alt="Layout 1" width="700"/>
 <img src=".github/Componentes.png" alt="Layout 1" width="700"/>
 
