@@ -1,0 +1,30 @@
+@keyframes rocketJourney {
+    0% {
+        top: 0px;
+    }
+    25% {
+        top: -250px;
+    }
+    26% {
+        opacity: 0;
+        top: 80vh;
+    }
+    80% {
+        opacity: 1;
+        top: -5vh;
+    }
+    100% {
+        opacity: 1;
+        top: 0vh;
+    }
+}
+
+.rocket {
+    position: relative;
+    cursor: pointer;
+}
+
+.rocket.animate{
+    animation: rocketJourney 5s ease-in-out;
+
+}
