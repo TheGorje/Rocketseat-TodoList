@@ -1,50 +1,52 @@
-# React + TypeScript + Vite
+# RocketSeat - TodoList
+Uma aplicação de lista de tarefas criada como parte de um curso de React da RocketSeat.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Funcionalidades
 
-Currently, two official plugins are available:
+- Adicionar novas tarefas
+- Marcar tarefas como concluídas
+- Excluir tarefas
+- Interface responsiva
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- React
+- TypeScript
+- Context API
+- UUID
+- Phosphor
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Instalação para rodar o projeto localmente: 
+```bash
+# Clone o repositório
+git clone https://github.com/TheGorje/Rocketseat-TodoList.git
 
-- Configure the top-level `parserOptions` property like this:
+# Entre no diretório do projeto
+cd Rocketseat-TodoList
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+# Instale as dependências
+npm install
+
+# Rode o projeto com o Vite
+npm run dev
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Interface na Aplicação
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+![GIF da Aplicação](.github/aplicação.gif)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+
+# Layout da Aplicação (Figma)
+- No desafio, foi fornecido um layout no Figma para que eu pudesse seguir e implementar todas as funcionalidades.
+- Todos feitos pela [Millena Martins](https://www.linkedin.com/in/millenamartins/) Product Designer da RocketSeat.
+
+### Layout
+<img src=".github/TodoEmpty.png" alt="Layout 1" width="700"/>
+<img src=".github/Todo.png" alt="Layout 1" width="700"/>
+
+
+
+### Components
+<img src=".github/Estilos.png" alt="Layout 1" width="700"/>
+<img src=".github/Componentes.png" alt="Layout 1" width="700"/>
+
