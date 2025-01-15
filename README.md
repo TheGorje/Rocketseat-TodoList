@@ -42,7 +42,7 @@ npm run dev
 
 # Layout da Aplicação (Figma)
 - No desafio, foi fornecido um layout no Figma para que eu pudesse seguir e implementar todas as funcionalidades.
-- Todos feitos pela [Millena Martins](https://www.linkedin.com/in/millenamartins/) Product Designer da RocketSeat.
+- Design da Interface criada no Figma: [Millena Martins](https://www.linkedin.com/in/millenamartins/) Product Designer da RocketSeat.
 
 ### Layout
 <img src=".github/TodoEmpty.png" alt="Layout 1" width="700"/>
